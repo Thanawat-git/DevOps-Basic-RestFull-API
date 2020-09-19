@@ -1,0 +1,14 @@
+Basic Res Full API 19/09/2020
+
+http://localhost:3000/test => Endpoint
+http://     => Protocol
+localhost   => Domain
+3000        => Port
+/test       => Resurce Point
+
+http status code 
+2xx -> success
+200 -> ร้องขอข้อมูลเดิม แล้วส่งกลับสำเร็จ (GET)
+201 -> การร้องขอนั้นทำสำเร็จแล้วได้เป็นข้อมูลใหม่ (POST)
+4xx -> err form client
+5xx -> err form server
